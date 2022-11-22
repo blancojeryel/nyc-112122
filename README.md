@@ -12,6 +12,7 @@ In your terminal: git pull
 
 ## git add
 In your terminal: git add . {this will add all of your files to the staging area}
+If you just want a specific file you can take of the dot and instead specify the file name
 
 ## git commit
 In your terminal: git commit -m "{here goes a message to identify your specific changes}"
@@ -31,6 +32,11 @@ this command is used to switch between branches
 In your terminal: git checkout -b {branch name}
 Use this command to create a new branch and also switch to it
 
-git branch
+## git branch
 In your terminal: git branch {branch name}
 Use this command is used to create a new branch
+To delete a branch, in your terminal: git branch -d {branch name}
+
+## git merge
+In your terminal: git merge {branch you want to merge}
+Branch will be merged to whatever branch you are currently on
